@@ -38,6 +38,7 @@
                   });  
               });  
             </script> 
+
 <form action="AddUser" method="post">
 <table> 
 <tr><td>UserName: </td><td><input type="text" name="username" id="username" /></td><td><span id="status"></span></td></tr>
