@@ -1,0 +1,10 @@
+version: 1
+checkmarx: 
+  scan:
+    configs:
+      sast:
+        presetName: 'Top Tier'
+        incremental: 'false'
+        filter: '!*.jsp'
+      iac security:
+        filter: '!*swagger*.json'
