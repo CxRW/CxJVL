@@ -3,7 +3,7 @@ checkmarx:
   scan:
     configs:
       sast:
-        presetName: 'Top Tier'
+        presetName: 'Base Preset'
         incremental: 'false'
         filter: '!*.jsp'
       iac security:
