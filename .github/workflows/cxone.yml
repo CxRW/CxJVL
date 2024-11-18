@@ -17,5 +17,6 @@ jobs:
           cx_tenant: rw_demo
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
+          additional_params: --sast-preset-name "ASA Premium"
 
 
