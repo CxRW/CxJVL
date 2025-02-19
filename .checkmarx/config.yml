@@ -3,7 +3,7 @@ checkmarx:
   scan:
     configs:
       sast:
-        presetName: 'Base Preset'
+        presetName: 'ASA Premium'
         incremental: 'false'
         filter: '!*.jsp'
       iac security:
